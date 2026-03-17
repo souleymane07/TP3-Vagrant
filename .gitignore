@@ -1,0 +1,140 @@
+### Vagrant ###
+.vagrant/
+*.box
+Vagrantfile.bak
+
+### Java / Maven ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tar
+*.gz
+hs_err_pid*
+dependency-reduced-pom.xml
+build/
+
+### Spring Boot ###
+HELP.md
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Node / Angular ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+lerna-debug.log*
+/dist/
+/dist-prod/
+/out-tsc/
+/.angular/
+*.tgz
+*.seed
+*.log*.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### Angular specific ###
+tmp/
+/app/**/*.js
+/app/**/*.js.map
+/app/**/*.d.ts
+/coverage/
+/compiled/
+/transpiled/
+
+### IDE ###
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.settings/
+.factorypath
+*.iml
+*.iws
+*.ipr
+.vertx
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+fabric.properties
+
+### OS ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+
+### Logs ###
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+### Test coverage ###
+coverage/
+.nyc_output/
+coverage.lcov
+lcov.info
+
+### Environnement ###
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+### Docker ###
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+*.pid
+*.seed
+*.pid.lock
+
+### Git ###
+*.orig
+*.patch
+*.diff
+*.rej
+.mergely
+.gitignore.swp
+.gitignore.swo
+
+### Mais on GARDE les images pour le README ###
+!docs/captures/
+!docs/captures/*.png
+!docs/captures/*.jpg
+!docs/captures/*.jpeg
+!docs/captures/*.gif
+!docs/captures/*.svg
+
+### On garde aussi les fichiers importants ###
+!README.md
+!Vagrantfile
+!backend/pom.xml
+!backend/src/
+!frontend/package.json
+!frontend/angular.json
+!frontend/src/
+!frontend/proxy.conf.json
