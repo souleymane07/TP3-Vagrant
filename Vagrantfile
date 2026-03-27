@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "server-dba" do |dba|
     dba.vm.hostname = "server-dba"
     dba.vm.network "private_network", ip: "192.168.33.21"
-    dba.vm.network "forwarded_port", guest: 3306, host: 3308  # Port différent pour éviter conflits
+    dba.vm.network "forwarded_port", guest: 3306, host: 3310 # Port différent pour éviter conflits
     
     dba.vm.provider "virtualbox" do |vb|
       vb.gui = true
